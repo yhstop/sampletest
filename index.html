@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서브웨이모바일</title>
+    <!--swiper슬라이드 css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <button class="m_menu">전체메뉴버튼</button>
+        <h1>
+            <a href="index.html">서브웨이모바일</a>
+        </h1>
+        <button class="m_cart">장바구니</button>
+    </header>
+    <div class="login">
+        <p>
+            안녕하세요,<br>
+            로그인하시고 다양한 혜택을 즐겨보세요
+        </p>
+        <a href="#" class="go">로그인하기></a>
+    </div>
+    <main>
+        <!-- 메인 슬라이드 -->
+        <!-- Slider main container -->
+       <div class="main_slide">
+         <div class="swiper">
+             <!-- Additional required wrapper -->
+             <div class="swiper-wrapper">
+                 <!-- Slides -->
+                 <div class="swiper-slide"><img src="./images/20240313102031913.jpg" alt="이미지1"></div>
+                 <div class="swiper-slide"><img src="./images/20240625120327192.jpg" alt="이미지2"></div>
+                 <div class="swiper-slide"><img src="./images/20240812124432173.jpg" alt="이미지3"></div>
+                 <div class="swiper-slide"><img src="./images/20241111054110635.jpg" alt="이미지4"></div>
+             </div>
+             <!-- If we need pagination -->
+              <!-- 페이ㅣ번호 -->
+             <div class="swiper-pagination"></div>
+         
+             <!-- If we need navigation buttons -->
+             <!-- <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div> -->
+         
+             <!-- If we need scrollbar -->
+             <!-- <div class="swiper-scrollbar"></div> -->
+         </div>
+       </div>
+
+        <!-- 주문박스 -->
+        <div class="order">
+            <ul class="order_list">
+                <li>
+                   <a href="#">
+                      매장 선주문<br>
+                      <span>FAST-SUB</span> 
+                   </a> 
+                </li>
+                <li>
+                    <a href="#">
+                       배달 주문<br>
+                       <span>HOME-SUB</span> 
+                    </a> 
+                 </li>
+            </ul>
+        </div>
+
+        <!-- 위치박스 -->
+         <div class="map">
+            <h2>주변매장</h2>
+            <div class="none">
+                    <img src="./images/icon_notice02.png" alt="none이미지">
+                    <p>
+                        주변 매장을 불러올수 없습니다<br>
+                        설정에서 위치정보 수집을 동의해주세요
+                    </p>
+            </div>
+         </div>
+
+         <!--배너 슬라이드 -->
+         <div class="banner">
+            <div class="tit">
+                <h2>추천메뉴</h2>
+                <a href="#"><img src="./images/right_arrow.png" alt="더보기"></a>
+            </div>
+            <!-- 배너슬라이드 -->
+             <ul class="banner_slide">
+                <li>
+                    <a href="#">
+                        <div class="imgbox">
+                            <img src="./images/Italian_B.M.T_20211231094910899.png" alt="이탈리안비엠티">
+                        </div>
+                        <div class="txt">
+                            <h3>이탈리안 비엠티</h3>
+                            <p>ITALLIAN B.M.T</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgbox">
+                            <img src="./images/Roasted-Chicken_20211231095032718.png" alt="로스트치킨">
+                        </div>
+                        <div class="txt">
+                            <h3>로스트 치킨</h3>
+                            <p>ROASTED CHICKEN</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgbox">
+                            <img src="./images/Steak-&-Cheese_20211231095455613.png" alt="스테이크치즈">
+                        </div>
+                        <div class="txt">
+                            <h3>스테이크&치즈</h3>
+                            <p>STEAK&CHEESE</p>
+                        </div>
+                    </a>
+                </li>
+             </ul>
+
+         </div>
+
+         <!-- SlideTab(swiper슬라이드) -->
+         <div class="slidetab">
+            <h2>Subway's Menu</h2>
+            <ul class="tabmenu">
+                <li class="on"><a href="#">클래식</a></li>
+                <li><a href="#">프레쉬&라이트</a></li>
+                <li><a href="#">프리미엄</a></li>
+                <li><a href="#">아침메뉴</a></li>
+            </ul>
+            <!-- swiper슬라이드 클래식 -->
+             <!-- Slider main container -->
+           <div class="slide_tab">
+             <div class="swiper">
+                 <!-- Additional required wrapper -->
+                 <div class="swiper-wrapper">
+                     <!-- Slides -->
+                     <div class="swiper-slide">
+                        <a href="#">
+                           <img src="./images/classic/sandwich_cl01_01.jpg" alt="이미지1">
+                            <h3>에그마요</h3>
+                            <p>
+                                부드러운 달걀과 고소한 마요네즈가 만나<br>
+                                더 부드러운 스테디셀러
+                            </p>
+                        </a>
+                    </div>
+                     <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/classic/sandwich_cl02_01.jpg" alt="이미지2"> 
+                            <h3>이탈리안 비엠티</h3>
+                            <p>
+                                페퍼로니, 살라미 그리고 햄이 만들어내는 최상의 조화! 전세계가 사랑하는 써브웨이의 베스트셀러! Biggest Meatiest Tastiest, its’ B.M.T!
+                            </p>
+                        </a>
+                       
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/classic/sandwich_cl04_01.jpg" alt="이미지3">
+                            <h3>비엘티</h3>
+                            <p>
+                                오리지널 아메리칸 스타일 베이컨의<br>
+                                풍미와 바삭함 그대로
+                            </p>
+                        </a>
+                    </div>
+                     <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/classic/sandwich_cl05_01.jpg" alt="이미지4">
+                            <h3>햄</h3>
+                            <p>
+                                기본 중에 기본!<br>
+                                풍부한 햄이 만들어내는<br>
+                                입 안 가득 넘치는 맛의 향연
+                            </p>
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/classic/Steak-&-Cheese_20211231095455613.png" alt="이미지5">
+                            <h3>참치</h3>
+                            <p>
+                                남녀노소 누구나 좋아하는<br>
+                                담백한 참치와 고소한 마요네즈의<br>
+                                완벽한 조화
+                            </p>
+                        </a>
+                     </div>
+                
+                 </div>
+                 <!-- If we need pagination -->
+                 <div class="swiper-pagination"></div>
+             
+                 <!-- If we need navigation buttons -->
+                 <div class="swiper-button-prev"></div>
+                 <div class="swiper-button-next"></div>
+             
+                 <!-- If we need scrollbar -->
+                 <!-- <div class="swiper-scrollbar"></div> -->
+             </div>
+            <!--  프레쉬라이트 -->
+            <div class="swiper swiper-hidden">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                       <a href="#">
+                          <img src="./images/fresh/sandwich_fl01_01.jpg" alt="이미지1">
+                           <h3>로티세리 바비큐 치킨</h3>
+                           <p>
+                            촉촉한 바비큐 치킨의 풍미가득.<br>
+                            손으로 찢어 더욱 부드러운 치킨의 혁명
+                           </p>
+                       </a>
+                   </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                           <img src="./images/fresh/sandwich_fl02_01.jpg" alt="이미지2"> 
+                           <h3>로스트 치킨</h3>
+                           <p>
+                            오븐에 구워 담백한 저칼로리<br>
+                            닭가슴살의 건강한 풍미
+                           </p>
+                       </a>
+                      
+                    </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                           <img src="./images/fresh/sandwich_fl04_01.jpg" alt="이미지3">
+                           <h3>써브웨이 클럽</h3>
+                           <p>
+                            명실공히 시그니처 써브!<br>
+                            치킨 슬라이스, 햄, 베이컨의 완벽한 앙상블
+                           </p>
+                       </a>
+                   </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                           <img src="./images/fresh/sandwich_fl06_01.jpg" alt="이미지4">
+                           <h3>베지</h3>
+                           <p>
+                               갓 구운 빵과 신선한 7가지 야채로<br>
+                               풍부한 햄이 만들어내는<br>
+                           </p>
+                       </a>
+                    </div>
+               
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+             <!--  프리미엄 -->
+             <div class="swiper swiper-hidden">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                       <a href="#">
+                          <img src="./images/primim/sandwich_pm01_01.jpg" alt="이미지1">
+                           <h3>쉬림프</h3>
+                           <p>
+                            탱글한 식감이 그대로 살아있는 통새우가<br>
+                            5마리 들어가 한 입 베어 먹을 때 마다
+                           </p>
+                       </a>
+                   </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                           <img src="./images/fresh/sandwich_fl02_01.jpg" alt="이미지2"> 
+                           <h3>풀드 포크 바비큐</h3>
+                           <p>
+                            훈연한 미국 정통 스타일의 리얼 바비큐 풀드포크가 들어간 샌드위치<br>
+                            닭가슴살의 건강한 풍미
+                           </p>
+                       </a>
+                      
+                    </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                           <img src="./images/fresh/sandwich_fl04_01.jpg" alt="이미지3">
+                           <h3>스테이크&치즈</h3>
+                           <p>
+                            육즙이 쫙~<br>
+                            풍부한 비프 스테이크의 풍미가 입안 한가득
+                           </p>
+                       </a>
+                   </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                           <img src="./images/fresh/sandwich_fl06_01.jpg" alt="이미지4">
+                           <h3>스파이시 이탈리안</h3>
+                           <p>
+                            살라미, 페퍼로니가 입안 한가득!<br>
+                            쏘 핫한 이탈리아의 맛<br>
+                           </p>
+                       </a>
+                    </div>
+               
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+            <!--  아침메뉴 -->
+            <div class="swiper swiper-hidden">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                       <a href="#">
+                          <img src="./images/primim/sandwich_pm01_01.jpg" alt="이미지1">
+                           <h3>햄, 에그&치즈</h3>
+                           <p>
+                            푹신한 오믈렛과 햄의 가장 클래식한 조화
+                           </p>
+                       </a>
+                   </div>
+                    <div class="swiper-slide">
+                       <a href="#">
+                           <img src="./images/fresh/sandwich_fl02_01.jpg" alt="이미지2"> 
+                           <h3>웨스턴, 에그 & 치즈</h3>
+                           <p>
+                            토마토, 피망, 양파 세가지 야채가 더해져<br>
+                            더욱 신선한 하루 시작
+                           </p>
+                       </a>
+                      
+                    </div>
+                   
+                   
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+           </div>
+         </div>
+    </main>
+
+    <!-- 제이쿼리 라이브러리 cdn방식연결 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- swiper슬라이드 자바스크립트연결 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
